@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             panelMenu = new Panel();
-            panelLogo = new Panel();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
             button5 = new Button();
+            button4 = new Button();
+            button3 = new Button();
+            button2 = new Button();
+            button1 = new Button();
+            panelLogo = new Panel();
             panelMenu.SuspendLayout();
             SuspendLayout();
             // 
@@ -53,6 +53,71 @@
             panelMenu.Size = new Size(220, 577);
             panelMenu.TabIndex = 0;
             // 
+            // button5
+            // 
+            button5.Dock = DockStyle.Top;
+            button5.FlatAppearance.BorderSize = 0;
+            button5.FlatStyle = FlatStyle.Flat;
+            button5.ForeColor = Color.Gainsboro;
+            button5.Location = new Point(0, 368);
+            button5.Name = "button5";
+            button5.Size = new Size(220, 70);
+            button5.TabIndex = 5;
+            button5.Text = "Calendario";
+            button5.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            button4.Dock = DockStyle.Top;
+            button4.FlatAppearance.BorderSize = 0;
+            button4.FlatStyle = FlatStyle.Flat;
+            button4.ForeColor = Color.Gainsboro;
+            button4.Location = new Point(0, 298);
+            button4.Name = "button4";
+            button4.Size = new Size(220, 70);
+            button4.TabIndex = 4;
+            button4.Text = "Veterinarios";
+            button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            button3.Dock = DockStyle.Top;
+            button3.FlatAppearance.BorderSize = 0;
+            button3.FlatStyle = FlatStyle.Flat;
+            button3.ForeColor = Color.Gainsboro;
+            button3.Location = new Point(0, 228);
+            button3.Name = "button3";
+            button3.Size = new Size(220, 70);
+            button3.TabIndex = 3;
+            button3.Text = "Petshop";
+            button3.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            button2.Dock = DockStyle.Top;
+            button2.FlatAppearance.BorderSize = 0;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.ForeColor = Color.Gainsboro;
+            button2.Location = new Point(0, 158);
+            button2.Name = "button2";
+            button2.Size = new Size(220, 70);
+            button2.TabIndex = 2;
+            button2.Text = "Pets";
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            button1.Dock = DockStyle.Top;
+            button1.FlatAppearance.BorderSize = 0;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.ForeColor = Color.Gainsboro;
+            button1.Location = new Point(0, 88);
+            button1.Name = "button1";
+            button1.Size = new Size(220, 70);
+            button1.TabIndex = 1;
+            button1.Text = "Inicio";
+            button1.UseVisualStyleBackColor = true;
+            // 
             // panelLogo
             // 
             panelLogo.BackColor = Color.FromArgb(32, 32, 53);
@@ -61,66 +126,6 @@
             panelLogo.Name = "panelLogo";
             panelLogo.Size = new Size(220, 88);
             panelLogo.TabIndex = 0;
-            // 
-            // button1
-            // 
-            button1.Dock = DockStyle.Top;
-            button1.FlatAppearance.BorderSize = 0;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Location = new Point(0, 88);
-            button1.Name = "button1";
-            button1.Size = new Size(220, 70);
-            button1.TabIndex = 1;
-            button1.Text = "Inicio";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            button2.Dock = DockStyle.Top;
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Location = new Point(0, 158);
-            button2.Name = "button2";
-            button2.Size = new Size(220, 70);
-            button2.TabIndex = 2;
-            button2.Text = "Pets";
-            button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            button3.Dock = DockStyle.Top;
-            button3.FlatAppearance.BorderSize = 0;
-            button3.FlatStyle = FlatStyle.Flat;
-            button3.Location = new Point(0, 228);
-            button3.Name = "button3";
-            button3.Size = new Size(220, 70);
-            button3.TabIndex = 3;
-            button3.Text = "Petshop";
-            button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            button4.Dock = DockStyle.Top;
-            button4.FlatAppearance.BorderSize = 0;
-            button4.FlatStyle = FlatStyle.Flat;
-            button4.Location = new Point(0, 298);
-            button4.Name = "button4";
-            button4.Size = new Size(220, 70);
-            button4.TabIndex = 4;
-            button4.Text = "Veterinarios";
-            button4.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            button5.Dock = DockStyle.Top;
-            button5.FlatAppearance.BorderSize = 0;
-            button5.FlatStyle = FlatStyle.Flat;
-            button5.Location = new Point(0, 368);
-            button5.Name = "button5";
-            button5.Size = new Size(220, 70);
-            button5.TabIndex = 5;
-            button5.Text = "Calendario";
-            button5.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 

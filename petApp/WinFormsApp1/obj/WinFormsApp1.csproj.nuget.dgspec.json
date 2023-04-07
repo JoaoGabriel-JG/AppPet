@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repos\\PetProject\\petApp\\WinFormsApp1\\WinFormsApp1.csproj": {}
+    "D:\\repos\\PetProject\\AppPet\\petApp\\WinFormsApp1\\WinFormsApp1.csproj": {}
   },
   "projects": {
-    "D:\\repos\\PetProject\\petApp\\WinFormsApp1\\WinFormsApp1.csproj": {
+    "D:\\repos\\PetProject\\AppPet\\petApp\\WinFormsApp1\\WinFormsApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\PetProject\\petApp\\WinFormsApp1\\WinFormsApp1.csproj",
+        "projectUniqueName": "D:\\repos\\PetProject\\AppPet\\petApp\\WinFormsApp1\\WinFormsApp1.csproj",
         "projectName": "WinFormsApp1",
-        "projectPath": "D:\\repos\\PetProject\\petApp\\WinFormsApp1\\WinFormsApp1.csproj",
+        "projectPath": "D:\\repos\\PetProject\\AppPet\\petApp\\WinFormsApp1\\WinFormsApp1.csproj",
         "packagesPath": "C:\\Users\\joaon\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\PetProject\\petApp\\WinFormsApp1\\obj\\",
+        "outputPath": "D:\\repos\\PetProject\\AppPet\\petApp\\WinFormsApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\joaon\\AppData\\Roaming\\NuGet\\NuGet.Config",
