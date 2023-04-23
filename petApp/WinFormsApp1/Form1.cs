@@ -8,6 +8,7 @@ namespace WinFormsApp1
         private Button currentButton;
         private Random random;
         private int tempIndex;
+        private Form activateForm;
 
         // Construtor
         public Form1()
@@ -57,6 +58,23 @@ namespace WinFormsApp1
                     previousBtn.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
                 }
             }
+        }
+
+        private void OpenChildForm(Form childForm, object btnSender) { 
+            if (Activate != null) {
+                activateForm.Close();
+            }
+            ActivateButton(btnSender);
+            activateForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            this.panelDesk.Controls.Add(childForm);
+            this.panelDesk.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+
+            LblTitle.Text = childForm.Text;
         }
 
         private void button1_Click(object sender, EventArgs e)

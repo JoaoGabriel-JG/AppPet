@@ -35,9 +35,10 @@
             button2 = new Button();
             button1 = new Button();
             panelLogo = new Panel();
+            label1 = new Label();
             panelTitle = new Panel();
             LblTitle = new Label();
-            label1 = new Label();
+            panelDesk = new Panel();
             panelMenu.SuspendLayout();
             panelLogo.SuspendLayout();
             panelTitle.SuspendLayout();
@@ -143,6 +144,17 @@
             panelLogo.Size = new Size(220, 88);
             panelLogo.TabIndex = 0;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(36, 35);
+            label1.Name = "label1";
+            label1.Size = new Size(135, 21);
+            label1.TabIndex = 0;
+            label1.Text = "nome da empresa";
+            // 
             // panelTitle
             // 
             panelTitle.BackColor = Color.FromArgb(0, 150, 136);
@@ -165,22 +177,20 @@
             LblTitle.TabIndex = 0;
             LblTitle.Text = "HOME";
             // 
-            // label1
+            // panelDesk
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.ForeColor = Color.White;
-            label1.Location = new Point(36, 35);
-            label1.Name = "label1";
-            label1.Size = new Size(135, 21);
-            label1.TabIndex = 0;
-            label1.Text = "nome da empresa";
+            panelDesk.Dock = DockStyle.Fill;
+            panelDesk.Location = new Point(220, 88);
+            panelDesk.Name = "panelDesk";
+            panelDesk.Size = new Size(804, 489);
+            panelDesk.TabIndex = 2;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1024, 577);
+            Controls.Add(panelDesk);
             Controls.Add(panelTitle);
             Controls.Add(panelMenu);
             Name = "Form1";
@@ -205,5 +215,6 @@
         private Label label1;
         private Panel panelTitle;
         private Label LblTitle;
+        private Panel panelDesk;
     }
 }
