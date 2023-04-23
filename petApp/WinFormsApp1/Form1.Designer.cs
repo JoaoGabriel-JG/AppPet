@@ -35,7 +35,12 @@
             button2 = new Button();
             button1 = new Button();
             panelLogo = new Panel();
+            panelTitle = new Panel();
+            LblTitle = new Label();
+            label1 = new Label();
             panelMenu.SuspendLayout();
+            panelLogo.SuspendLayout();
+            panelTitle.SuspendLayout();
             SuspendLayout();
             // 
             // panelMenu
@@ -66,6 +71,7 @@
             button5.TabIndex = 5;
             button5.Text = "Calendario";
             button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // button4
             // 
@@ -80,6 +86,7 @@
             button4.TabIndex = 4;
             button4.Text = "Veterinarios";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // button3
             // 
@@ -94,6 +101,7 @@
             button3.TabIndex = 3;
             button3.Text = "Petshop";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button2
             // 
@@ -108,6 +116,7 @@
             button2.TabIndex = 2;
             button2.Text = "Pets";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button1
             // 
@@ -120,27 +129,67 @@
             button1.Name = "button1";
             button1.Size = new Size(220, 70);
             button1.TabIndex = 1;
-            button1.Text = "Inicio";
+            button1.Text = "Home";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // panelLogo
             // 
             panelLogo.BackColor = Color.FromArgb(32, 32, 53);
+            panelLogo.Controls.Add(label1);
             panelLogo.Dock = DockStyle.Top;
             panelLogo.Location = new Point(0, 0);
             panelLogo.Name = "panelLogo";
             panelLogo.Size = new Size(220, 88);
             panelLogo.TabIndex = 0;
             // 
+            // panelTitle
+            // 
+            panelTitle.BackColor = Color.FromArgb(0, 150, 136);
+            panelTitle.Controls.Add(LblTitle);
+            panelTitle.Dock = DockStyle.Top;
+            panelTitle.Location = new Point(220, 0);
+            panelTitle.Name = "panelTitle";
+            panelTitle.Size = new Size(804, 88);
+            panelTitle.TabIndex = 1;
+            // 
+            // LblTitle
+            // 
+            LblTitle.Anchor = AnchorStyles.None;
+            LblTitle.AutoSize = true;
+            LblTitle.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            LblTitle.ForeColor = Color.White;
+            LblTitle.Location = new Point(348, 26);
+            LblTitle.Name = "LblTitle";
+            LblTitle.Size = new Size(77, 30);
+            LblTitle.TabIndex = 0;
+            LblTitle.Text = "HOME";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(36, 35);
+            label1.Name = "label1";
+            label1.Size = new Size(135, 21);
+            label1.TabIndex = 0;
+            label1.Text = "nome da empresa";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1024, 577);
+            Controls.Add(panelTitle);
             Controls.Add(panelMenu);
             Name = "Form1";
             Text = "Form1";
             panelMenu.ResumeLayout(false);
+            panelLogo.ResumeLayout(false);
+            panelLogo.PerformLayout();
+            panelTitle.ResumeLayout(false);
+            panelTitle.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -153,5 +202,8 @@
         private Button button4;
         private Button button3;
         private Button button2;
+        private Label label1;
+        private Panel panelTitle;
+        private Label LblTitle;
     }
 }

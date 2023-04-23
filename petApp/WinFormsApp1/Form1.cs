@@ -13,6 +13,7 @@ namespace WinFormsApp1
         public Form1()
         {
             InitializeComponent();
+            random = new Random();
         }
 
         private Color SelectThemeColor()
@@ -20,7 +21,7 @@ namespace WinFormsApp1
             int index = random.Next(ThemeColor.ColorList.Count);
             while (tempIndex == index)
             {
-                random.Next(ThemeColor.ColorList.Count);
+                index = random.Next(ThemeColor.ColorList.Count);
             }
             tempIndex = index;
             string color = ThemeColor.ColorList[index];
@@ -39,19 +40,48 @@ namespace WinFormsApp1
                     currentButton.BackColor = color;
                     currentButton.ForeColor = Color.White;
                     currentButton.Font = new Font("Segoe UI", 12.5F, FontStyle.Regular, GraphicsUnit.Point);
-
+                    panelTitle.BackColor = color;
+                    panelLogo.BackColor = ThemeColor.ChangeColorBrightness(color, -0.3);
                 }
             }
         }
 
-        private void DisableButton() { 
-            foreach (Control previousBtn in panelMenu.Controls) { 
-                if (previousBtn.GetType() == typeof(Button)) {
+        private void DisableButton()
+        {
+            foreach (Control previousBtn in panelMenu.Controls)
+            {
+                if (previousBtn.GetType() == typeof(Button))
+                {
                     previousBtn.BackColor = Color.FromArgb(52, 52, 76);
                     previousBtn.ForeColor = Color.Gainsboro;
                     previousBtn.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
                 }
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender);
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender);
         }
     }
 }
