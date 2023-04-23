@@ -15,9 +15,11 @@ namespace WinFormsApp1
             InitializeComponent();
         }
 
-        private Color SelectThemeColor() {
+        private Color SelectThemeColor()
+        {
             int index = random.Next(ThemeColor.ColorList.Count);
-            while(tempIndex == index) {
+            while (tempIndex == index)
+            {
                 random.Next(ThemeColor.ColorList.Count);
             }
             tempIndex = index;
@@ -25,10 +27,29 @@ namespace WinFormsApp1
             return ColorTranslator.FromHtml(color);
         }
 
-        private void ActivateButton(object btnSender) {
-            if(btnSender != null) {
-                if(currentButton != (Button)btnSender) {
-                    
+        private void ActivateButton(object btnSender)
+        {
+            if (btnSender != null)
+            {
+                if (currentButton != (Button)btnSender)
+                {
+                    DisableButton();
+                    Color color = SelectThemeColor();
+                    currentButton = (Button)btnSender;
+                    currentButton.BackColor = color;
+                    currentButton.ForeColor = Color.White;
+                    currentButton.Font = new Font("Segoe UI", 12.5F, FontStyle.Regular, GraphicsUnit.Point);
+
+                }
+            }
+        }
+
+        private void DisableButton() { 
+            foreach (Control previousBtn in panelMenu.Controls) { 
+                if (previousBtn.GetType() == typeof(Button)) {
+                    previousBtn.BackColor = Color.FromArgb(52, 52, 76);
+                    previousBtn.ForeColor = Color.Gainsboro;
+                    previousBtn.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
                 }
             }
         }
