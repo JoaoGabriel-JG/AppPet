@@ -62,8 +62,7 @@ namespace WinFormsApp1
 
         private void OpenChildForm(Form childForm, object btnSender)
         {
-            if (Activate != null)
-            {
+            if (activateForm != null) {
                 activateForm.Close();
             }
             ActivateButton(btnSender);
@@ -86,22 +85,22 @@ namespace WinFormsApp1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.FormPets(), sender);
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.FormPetshop(), sender);
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.FormVet(), sender);
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.FormCalendar(), sender);
         }
     }
 }

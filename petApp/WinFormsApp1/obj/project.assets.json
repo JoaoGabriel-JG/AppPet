@@ -8,24 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\joao.gabriel\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\joaon\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joao.gabriel\\source\\repos\\Leozin\\AppPet\\petApp\\WinFormsApp1\\WinFormsApp1.csproj",
+      "projectUniqueName": "D:\\repos\\PetProject\\AppPet\\petApp\\WinFormsApp1\\WinFormsApp1.csproj",
       "projectName": "WinFormsApp1",
-      "projectPath": "C:\\Users\\joao.gabriel\\source\\repos\\Leozin\\AppPet\\petApp\\WinFormsApp1\\WinFormsApp1.csproj",
-      "packagesPath": "C:\\Users\\joao.gabriel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joao.gabriel\\source\\repos\\Leozin\\AppPet\\petApp\\WinFormsApp1\\obj\\",
+      "projectPath": "D:\\repos\\PetProject\\AppPet\\petApp\\WinFormsApp1\\WinFormsApp1.csproj",
+      "packagesPath": "C:\\Users\\joaon\\.nuget\\packages\\",
+      "outputPath": "D:\\repos\\PetProject\\AppPet\\petApp\\WinFormsApp1\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\joao.gabriel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\joaon\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -69,7 +64,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

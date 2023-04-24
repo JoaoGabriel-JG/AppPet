@@ -4,7 +4,34 @@
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\controlAdote.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\controlCadPet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\controlPetshopContact.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\controlPetshopRequest.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\controlVetContact.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\controlVetRequest.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\FormCalendar.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Forms\FormPets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormPetshop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormVet.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

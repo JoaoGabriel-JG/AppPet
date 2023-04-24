@@ -90,7 +90,7 @@
             label1.Anchor = AnchorStyles.None;
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(37, 112);
+            label1.Location = new Point(37, 108);
             label1.Name = "label1";
             label1.Size = new Size(56, 21);
             label1.TabIndex = 4;
@@ -101,7 +101,7 @@
             label3.Anchor = AnchorStyles.None;
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(35, 139);
+            label3.Location = new Point(37, 139);
             label3.Name = "label3";
             label3.Size = new Size(58, 21);
             label3.TabIndex = 6;
@@ -112,7 +112,7 @@
             label2.Anchor = AnchorStyles.None;
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(28, 168);
+            label2.Location = new Point(30, 168);
             label2.Name = "label2";
             label2.Size = new Size(65, 21);
             label2.TabIndex = 8;
@@ -124,7 +124,7 @@
             listEstado.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             listEstado.FormattingEnabled = true;
             listEstado.ItemHeight = 21;
-            listEstado.Location = new Point(99, 114);
+            listEstado.Location = new Point(99, 108);
             listEstado.Name = "listEstado";
             listEstado.Size = new Size(94, 25);
             listEstado.TabIndex = 9;
@@ -135,9 +135,9 @@
             listCidade.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             listCidade.FormattingEnabled = true;
             listCidade.ItemHeight = 21;
-            listCidade.Location = new Point(99, 141);
+            listCidade.Location = new Point(99, 139);
             listCidade.Name = "listCidade";
-            listCidade.Size = new Size(94, 4);
+            listCidade.Size = new Size(94, 25);
             listCidade.TabIndex = 10;
             // 
             // listPetshop
@@ -148,7 +148,7 @@
             listPetshop.ItemHeight = 21;
             listPetshop.Location = new Point(99, 168);
             listPetshop.Name = "listPetshop";
-            listPetshop.Size = new Size(94, 4);
+            listPetshop.Size = new Size(94, 25);
             listPetshop.TabIndex = 11;
             // 
             // label4

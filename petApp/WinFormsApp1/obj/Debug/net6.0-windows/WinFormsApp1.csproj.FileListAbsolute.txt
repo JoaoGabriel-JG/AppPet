@@ -32,3 +32,13 @@ D:\repos\PetProject\AppPet\petApp\WinFormsApp1\obj\Debug\net6.0-windows\refint\W
 D:\repos\PetProject\AppPet\petApp\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.pdb
 D:\repos\PetProject\AppPet\petApp\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.genruntimeconfig.cache
 D:\repos\PetProject\AppPet\petApp\WinFormsApp1\obj\Debug\net6.0-windows\ref\WinFormsApp1.dll
+D:\repos\PetProject\AppPet\petApp\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Forms.controlAdote.resources
+D:\repos\PetProject\AppPet\petApp\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Forms.controlCadPet.resources
+D:\repos\PetProject\AppPet\petApp\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Forms.controlPetshopContact.resources
+D:\repos\PetProject\AppPet\petApp\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Forms.controlPetshopRequest.resources
+D:\repos\PetProject\AppPet\petApp\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Forms.controlVetContact.resources
+D:\repos\PetProject\AppPet\petApp\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Forms.controlVetRequest.resources
+D:\repos\PetProject\AppPet\petApp\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Forms.FormCalendar.resources
+D:\repos\PetProject\AppPet\petApp\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Forms.FormPets.resources
+D:\repos\PetProject\AppPet\petApp\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Forms.FormPetshop.resources
+D:\repos\PetProject\AppPet\petApp\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Forms.FormVet.resources
