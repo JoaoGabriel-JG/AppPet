@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace WinFormsApp1.Forms
 {
-    public partial class FormPets : Form
+    public partial class FormCalendar : Form
     {
-        public FormPets()
+        public FormCalendar()
         {
             InitializeComponent();
-        }
-
-        private void FormPets_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

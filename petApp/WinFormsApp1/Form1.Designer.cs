@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             panelMenu = new Panel();
-            button5 = new Button();
-            button4 = new Button();
-            button3 = new Button();
-            button2 = new Button();
-            button1 = new Button();
+            buttonCalendar = new Button();
+            buttonVet = new Button();
+            buttonPetshop = new Button();
+            buttonPets = new Button();
+            buttonHome = new Button();
             panelLogo = new Panel();
             label1 = new Label();
             panelTitle = new Panel();
@@ -47,11 +47,11 @@
             // panelMenu
             // 
             panelMenu.BackColor = Color.FromArgb(52, 52, 76);
-            panelMenu.Controls.Add(button5);
-            panelMenu.Controls.Add(button4);
-            panelMenu.Controls.Add(button3);
-            panelMenu.Controls.Add(button2);
-            panelMenu.Controls.Add(button1);
+            panelMenu.Controls.Add(buttonCalendar);
+            panelMenu.Controls.Add(buttonVet);
+            panelMenu.Controls.Add(buttonPetshop);
+            panelMenu.Controls.Add(buttonPets);
+            panelMenu.Controls.Add(buttonHome);
             panelMenu.Controls.Add(panelLogo);
             panelMenu.Dock = DockStyle.Left;
             panelMenu.Location = new Point(0, 0);
@@ -59,80 +59,80 @@
             panelMenu.Size = new Size(220, 577);
             panelMenu.TabIndex = 0;
             // 
-            // button5
+            // buttonCalendar
             // 
-            button5.Dock = DockStyle.Top;
-            button5.FlatAppearance.BorderSize = 0;
-            button5.FlatStyle = FlatStyle.Flat;
-            button5.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            button5.ForeColor = Color.Gainsboro;
-            button5.Location = new Point(0, 368);
-            button5.Name = "button5";
-            button5.Size = new Size(220, 70);
-            button5.TabIndex = 5;
-            button5.Text = "Calendario";
-            button5.UseVisualStyleBackColor = true;
-            button5.Click += button5_Click;
+            buttonCalendar.Dock = DockStyle.Top;
+            buttonCalendar.FlatAppearance.BorderSize = 0;
+            buttonCalendar.FlatStyle = FlatStyle.Flat;
+            buttonCalendar.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            buttonCalendar.ForeColor = Color.Gainsboro;
+            buttonCalendar.Location = new Point(0, 368);
+            buttonCalendar.Name = "buttonCalendar";
+            buttonCalendar.Size = new Size(220, 70);
+            buttonCalendar.TabIndex = 5;
+            buttonCalendar.Text = "Calendario";
+            buttonCalendar.UseVisualStyleBackColor = true;
+            buttonCalendar.Click += button5_Click;
             // 
-            // button4
+            // buttonVet
             // 
-            button4.Dock = DockStyle.Top;
-            button4.FlatAppearance.BorderSize = 0;
-            button4.FlatStyle = FlatStyle.Flat;
-            button4.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            button4.ForeColor = Color.Gainsboro;
-            button4.Location = new Point(0, 298);
-            button4.Name = "button4";
-            button4.Size = new Size(220, 70);
-            button4.TabIndex = 4;
-            button4.Text = "Veterinarios";
-            button4.UseVisualStyleBackColor = true;
-            button4.Click += button4_Click;
+            buttonVet.Dock = DockStyle.Top;
+            buttonVet.FlatAppearance.BorderSize = 0;
+            buttonVet.FlatStyle = FlatStyle.Flat;
+            buttonVet.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            buttonVet.ForeColor = Color.Gainsboro;
+            buttonVet.Location = new Point(0, 298);
+            buttonVet.Name = "buttonVet";
+            buttonVet.Size = new Size(220, 70);
+            buttonVet.TabIndex = 4;
+            buttonVet.Text = "Veterinarios";
+            buttonVet.UseVisualStyleBackColor = true;
+            buttonVet.Click += button4_Click;
             // 
-            // button3
+            // buttonPetshop
             // 
-            button3.Dock = DockStyle.Top;
-            button3.FlatAppearance.BorderSize = 0;
-            button3.FlatStyle = FlatStyle.Flat;
-            button3.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            button3.ForeColor = Color.Gainsboro;
-            button3.Location = new Point(0, 228);
-            button3.Name = "button3";
-            button3.Size = new Size(220, 70);
-            button3.TabIndex = 3;
-            button3.Text = "Petshop";
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += button3_Click;
+            buttonPetshop.Dock = DockStyle.Top;
+            buttonPetshop.FlatAppearance.BorderSize = 0;
+            buttonPetshop.FlatStyle = FlatStyle.Flat;
+            buttonPetshop.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            buttonPetshop.ForeColor = Color.Gainsboro;
+            buttonPetshop.Location = new Point(0, 228);
+            buttonPetshop.Name = "buttonPetshop";
+            buttonPetshop.Size = new Size(220, 70);
+            buttonPetshop.TabIndex = 3;
+            buttonPetshop.Text = "Petshop";
+            buttonPetshop.UseVisualStyleBackColor = true;
+            buttonPetshop.Click += button3_Click;
             // 
-            // button2
+            // buttonPets
             // 
-            button2.Dock = DockStyle.Top;
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            button2.ForeColor = Color.Gainsboro;
-            button2.Location = new Point(0, 158);
-            button2.Name = "button2";
-            button2.Size = new Size(220, 70);
-            button2.TabIndex = 2;
-            button2.Text = "Pets";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            buttonPets.Dock = DockStyle.Top;
+            buttonPets.FlatAppearance.BorderSize = 0;
+            buttonPets.FlatStyle = FlatStyle.Flat;
+            buttonPets.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            buttonPets.ForeColor = Color.Gainsboro;
+            buttonPets.Location = new Point(0, 158);
+            buttonPets.Name = "buttonPets";
+            buttonPets.Size = new Size(220, 70);
+            buttonPets.TabIndex = 2;
+            buttonPets.Text = "Pets";
+            buttonPets.UseVisualStyleBackColor = true;
+            buttonPets.Click += button2_Click;
             // 
-            // button1
+            // buttonHome
             // 
-            button1.Dock = DockStyle.Top;
-            button1.FlatAppearance.BorderSize = 0;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.ForeColor = Color.Gainsboro;
-            button1.Location = new Point(0, 88);
-            button1.Name = "button1";
-            button1.Size = new Size(220, 70);
-            button1.TabIndex = 1;
-            button1.Text = "Home";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            buttonHome.Dock = DockStyle.Top;
+            buttonHome.FlatAppearance.BorderSize = 0;
+            buttonHome.FlatStyle = FlatStyle.Flat;
+            buttonHome.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            buttonHome.ForeColor = Color.Gainsboro;
+            buttonHome.Location = new Point(0, 88);
+            buttonHome.Name = "buttonHome";
+            buttonHome.Size = new Size(220, 70);
+            buttonHome.TabIndex = 1;
+            buttonHome.Text = "Home";
+            buttonHome.UseVisualStyleBackColor = true;
+            buttonHome.Click += button1_Click;
             // 
             // panelLogo
             // 
@@ -207,11 +207,11 @@
 
         private Panel panelMenu;
         private Panel panelLogo;
-        private Button button1;
-        private Button button5;
-        private Button button4;
-        private Button button3;
-        private Button button2;
+        private Button buttonHome;
+        private Button buttonCalendar;
+        private Button buttonVet;
+        private Button buttonPetshop;
+        private Button buttonPets;
         private Label label1;
         private Panel panelTitle;
         private Label LblTitle;

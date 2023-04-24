@@ -60,8 +60,10 @@ namespace WinFormsApp1
             }
         }
 
-        private void OpenChildForm(Form childForm, object btnSender) { 
-            if (Activate != null) {
+        private void OpenChildForm(Form childForm, object btnSender)
+        {
+            if (Activate != null)
+            {
                 activateForm.Close();
             }
             ActivateButton(btnSender);

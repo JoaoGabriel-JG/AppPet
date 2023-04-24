@@ -10,14 +10,24 @@ using System.Windows.Forms;
 
 namespace WinFormsApp1.Forms
 {
-    public partial class FormPets : Form
+    public partial class FormPetshop : Form
     {
-        public FormPets()
+        public FormPetshop()
         {
             InitializeComponent();
         }
 
-        private void FormPets_Load(object sender, EventArgs e)
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FormPetshop_Load(object sender, EventArgs e)
         {
 
         }
