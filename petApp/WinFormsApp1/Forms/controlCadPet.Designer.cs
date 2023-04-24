@@ -1,6 +1,6 @@
 ﻿namespace WinFormsApp1.Forms
 {
-    partial class controlPets
+    partial class controlCadPet
     {
         /// <summary> 
         /// Variável de designer necessária.
@@ -163,7 +163,7 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label5.Location = new Point(31, 246);
+            label5.Location = new Point(31, 241);
             label5.Name = "label5";
             label5.Size = new Size(153, 21);
             label5.TabIndex = 12;

@@ -10,24 +10,14 @@ using System.Windows.Forms;
 
 namespace WinFormsApp1.Forms
 {
-    public partial class controlPets : UserControl
+    public partial class controlAdote : UserControl
     {
-        public controlPets()
+        public controlAdote()
         {
             InitializeComponent();
         }
 
-        private void Raça_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void controlPets_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
 
         }

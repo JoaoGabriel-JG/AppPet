@@ -44,7 +44,7 @@
             // 
             // button1
             // 
-            button1.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            button1.Anchor = AnchorStyles.None;
             button1.FlatStyle = FlatStyle.Flat;
             button1.Location = new Point(226, 383);
             button1.Name = "button1";
@@ -55,7 +55,7 @@
             // 
             // button2
             // 
-            button2.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            button2.Anchor = AnchorStyles.None;
             button2.FlatStyle = FlatStyle.Flat;
             button2.Location = new Point(431, 383);
             button2.Name = "button2";
@@ -66,7 +66,7 @@
             // 
             // button3
             // 
-            button3.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            button3.Anchor = AnchorStyles.None;
             button3.FlatStyle = FlatStyle.Flat;
             button3.Location = new Point(633, 383);
             button3.Name = "button3";
@@ -77,7 +77,7 @@
             // 
             // gridPets
             // 
-            gridPets.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            gridPets.Anchor = AnchorStyles.None;
             gridPets.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             gridPets.Location = new Point(226, 57);
             gridPets.Name = "gridPets";
@@ -87,6 +87,7 @@
             // 
             // label1
             // 
+            label1.Anchor = AnchorStyles.None;
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             label1.Location = new Point(37, 112);
@@ -97,6 +98,7 @@
             // 
             // label3
             // 
+            label3.Anchor = AnchorStyles.None;
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             label3.Location = new Point(35, 139);
@@ -107,6 +109,7 @@
             // 
             // label2
             // 
+            label2.Anchor = AnchorStyles.None;
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             label2.Location = new Point(28, 168);
@@ -117,36 +120,40 @@
             // 
             // listEstado
             // 
+            listEstado.Anchor = AnchorStyles.None;
             listEstado.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             listEstado.FormattingEnabled = true;
             listEstado.ItemHeight = 21;
             listEstado.Location = new Point(99, 114);
             listEstado.Name = "listEstado";
-            listEstado.Size = new Size(94, 21);
+            listEstado.Size = new Size(94, 25);
             listEstado.TabIndex = 9;
             // 
             // listCidade
             // 
+            listCidade.Anchor = AnchorStyles.None;
             listCidade.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             listCidade.FormattingEnabled = true;
             listCidade.ItemHeight = 21;
             listCidade.Location = new Point(99, 141);
             listCidade.Name = "listCidade";
-            listCidade.Size = new Size(94, 21);
+            listCidade.Size = new Size(94, 4);
             listCidade.TabIndex = 10;
             // 
             // listPetshop
             // 
+            listPetshop.Anchor = AnchorStyles.None;
             listPetshop.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             listPetshop.FormattingEnabled = true;
             listPetshop.ItemHeight = 21;
             listPetshop.Location = new Point(99, 168);
             listPetshop.Name = "listPetshop";
-            listPetshop.Size = new Size(94, 21);
+            listPetshop.Size = new Size(94, 4);
             listPetshop.TabIndex = 11;
             // 
             // label4
             // 
+            label4.Anchor = AnchorStyles.None;
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point);
             label4.Location = new Point(226, 26);
