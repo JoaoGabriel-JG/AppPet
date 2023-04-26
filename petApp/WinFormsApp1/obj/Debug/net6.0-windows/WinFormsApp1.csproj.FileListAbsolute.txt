@@ -69,3 +69,4 @@ C:\Users\joao.gbbsouza\source\repos\petApp\AppPet\petApp\WinFormsApp1\obj\Debug\
 C:\Users\joao.gbbsouza\source\repos\petApp\AppPet\petApp\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.pdb
 C:\Users\joao.gbbsouza\source\repos\petApp\AppPet\petApp\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.genruntimeconfig.cache
 C:\Users\joao.gbbsouza\source\repos\petApp\AppPet\petApp\WinFormsApp1\obj\Debug\net6.0-windows\ref\WinFormsApp1.dll
+C:\Users\joao.gbbsouza\source\repos\petApp\AppPet\petApp\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Forms.FormLogin.resources

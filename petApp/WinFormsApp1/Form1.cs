@@ -29,7 +29,7 @@ namespace WinFormsApp1
             return ColorTranslator.FromHtml(color);
         }
 
-        private void ActivateButton(object btnSender)
+        private void ActivateButton(object btnSender) 
         {
             if (btnSender != null)
             {
@@ -78,27 +78,52 @@ namespace WinFormsApp1
             LblTitle.Text = childForm.Text;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        //private void button1_Click(object sender, EventArgs e)
+        //{
+        //    ActivateButton(sender);
+        //}
+
+        //private void button2_Click(object sender, EventArgs e)
+        //{
+        //    OpenChildForm(new Forms.FormPets(), sender);
+        //}
+
+        //private void button3_Click(object sender, EventArgs e)
+        //{
+        //    OpenChildForm(new Forms.FormPetshop(), sender);
+        //}
+
+        //private void button4_Click(object sender, EventArgs e)
+        //{
+        //    OpenChildForm(new Forms.FormVet(), sender);
+        //}
+
+        //private void button5_Click(object sender, EventArgs e)
+        //{
+        //    OpenChildForm(new Forms.FormCalendar(), sender);
+        //}
+
+        private void buttonHome_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void buttonPets_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Forms.FormPets(), sender);
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void buttonPetshop_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Forms.FormPetshop(), sender);
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void buttonVet_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Forms.FormVet(), sender);
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void buttonCalendar_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Forms.FormCalendar(), sender);
         }

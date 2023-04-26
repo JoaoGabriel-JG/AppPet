@@ -28,44 +28,58 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
-            label1 = new Label();
-            SuspendLayout();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.SuspendLayout();
             // 
             // textBox1
             // 
-            textBox1.Anchor = AnchorStyles.None;
-            textBox1.Location = new Point(54, 108);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(467, 267);
-            textBox1.TabIndex = 0;
+            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.textBox1.Location = new System.Drawing.Point(58, 82);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(467, 267);
+            this.textBox1.TabIndex = 0;
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(71, 80);
-            label1.Name = "label1";
-            label1.Size = new Size(440, 25);
-            label1.TabIndex = 1;
-            label1.Text = "Envie uma mensagem para o PetShop escolhido!";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(75, 54);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(440, 25);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Envie uma mensagem para o PetShop escolhido!";
+            // 
+            // button1
+            // 
+            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button1.Location = new System.Drawing.Point(170, 355);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(236, 57);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Enviar";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // controlPetshopContact
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(label1);
-            Controls.Add(textBox1);
-            Name = "controlPetshopContact";
-            Size = new Size(577, 436);
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBox1);
+            this.Name = "controlPetshopContact";
+            this.Size = new System.Drawing.Size(577, 436);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
 
         private TextBox textBox1;
         private Label label1;
+        private Button button1;
     }
 }

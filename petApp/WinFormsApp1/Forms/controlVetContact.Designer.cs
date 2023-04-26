@@ -28,44 +28,58 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            textBox1 = new TextBox();
-            SuspendLayout();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.SuspendLayout();
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(70, 80);
-            label1.Name = "label1";
-            label1.Size = new Size(465, 25);
-            label1.TabIndex = 3;
-            label1.Text = "Envie uma mensagem para o Veterinário escolhido!";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(73, 60);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(465, 25);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Envie uma mensagem para o Veterinário escolhido!";
             // 
             // textBox1
             // 
-            textBox1.Anchor = AnchorStyles.None;
-            textBox1.Location = new Point(70, 108);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(467, 267);
-            textBox1.TabIndex = 2;
+            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.textBox1.Location = new System.Drawing.Point(73, 88);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(467, 267);
+            this.textBox1.TabIndex = 2;
+            // 
+            // button1
+            // 
+            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button1.Location = new System.Drawing.Point(177, 361);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(236, 57);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Enviar";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // controlVetContact
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(label1);
-            Controls.Add(textBox1);
-            Name = "controlVetContact";
-            Size = new Size(606, 455);
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBox1);
+            this.Name = "controlVetContact";
+            this.Size = new System.Drawing.Size(606, 455);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
 
         private Label label1;
         private TextBox textBox1;
+        private Button button1;
     }
 }

@@ -31,5 +31,15 @@ namespace WinFormsApp1.Forms
         {
 
         }
+
+        private void label2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gridPets_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
