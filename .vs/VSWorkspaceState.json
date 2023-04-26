@@ -2,9 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\petApp",
-    "\\petApp\\WinFormsApp1",
-    "\\petApp\\WinFormsApp1\\Forms"
+    "\\petApp\\WinFormsApp1"
   ],
-  "SelectedNode": "\\petApp\\WinFormsApp1\\Forms\\FormPets.cs",
+  "SelectedNode": "\\petApp\\WinFormsApp1\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }
