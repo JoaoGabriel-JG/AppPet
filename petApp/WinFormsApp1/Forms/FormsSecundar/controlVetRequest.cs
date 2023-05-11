@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WinFormsApp1.Forms
+namespace WinFormsApp1.Forms.FormsSecundar
 {
-    public partial class controlPetshopContact : UserControl
+    public partial class controlVetRequest : Form
     {
-        public controlPetshopContact()
+        public controlVetRequest()
         {
             InitializeComponent();
         }

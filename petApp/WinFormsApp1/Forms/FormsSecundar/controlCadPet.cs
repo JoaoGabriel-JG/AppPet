@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WinFormsApp1.Forms
+namespace WinFormsApp1.Forms.FormsSecundar
 {
-    public partial class controlVetContact : UserControl
+    public partial class controlCadPet : Form
     {
-        public controlVetContact()
+        public controlCadPet()
         {
             InitializeComponent();
+        }
+
+        private void controlCadPet_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

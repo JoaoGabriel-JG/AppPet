@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WinFormsApp1.Forms
+namespace WinFormsApp1.Forms.FormsSecundar
 {
-    public partial class controlAdote : UserControl
+    public partial class controlAdote : Form
     {
         public controlAdote()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
