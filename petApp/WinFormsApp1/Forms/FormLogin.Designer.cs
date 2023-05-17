@@ -28,119 +28,118 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button3 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.SuspendLayout();
+            button3 = new Button();
+            label3 = new Label();
+            label2 = new Label();
+            label1 = new Label();
+            textBox2 = new TextBox();
+            textBox1 = new TextBox();
+            button2 = new Button();
+            button1 = new Button();
+            SuspendLayout();
             // 
             // button3
             // 
-            this.button3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(441, 273);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(77, 31);
-            this.button3.TabIndex = 15;
-            this.button3.Text = "SIGN UP";
-            this.button3.UseVisualStyleBackColor = true;
+            button3.Anchor = AnchorStyles.None;
+            button3.FlatStyle = FlatStyle.Flat;
+            button3.Location = new Point(441, 273);
+            button3.Name = "button3";
+            button3.Size = new Size(77, 31);
+            button3.TabIndex = 15;
+            button3.Text = "SIGN UP";
+            button3.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
-            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(320, 146);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 28);
-            this.label3.TabIndex = 14;
-            this.label3.Text = "Login";
+            label3.Anchor = AnchorStyles.None;
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.Location = new Point(320, 146);
+            label3.Name = "label3";
+            label3.Size = new Size(64, 28);
+            label3.TabIndex = 14;
+            label3.Text = "Login";
             // 
             // label2
             // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(235, 235);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(79, 21);
-            this.label2.TabIndex = 13;
-            this.label2.Text = "Password:";
+            label2.Anchor = AnchorStyles.None;
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Location = new Point(235, 235);
+            label2.Name = "label2";
+            label2.Size = new Size(79, 21);
+            label2.TabIndex = 13;
+            label2.Text = "Password:";
             // 
             // label1
             // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(269, 188);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(45, 21);
-            this.label1.TabIndex = 12;
-            this.label1.Text = "User:";
+            label1.Anchor = AnchorStyles.None;
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Location = new Point(269, 188);
+            label1.Name = "label1";
+            label1.Size = new Size(45, 21);
+            label1.TabIndex = 12;
+            label1.Text = "User:";
             // 
             // textBox2
             // 
-            this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox2.Location = new System.Drawing.Point(320, 188);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(198, 23);
-            this.textBox2.TabIndex = 11;
+            textBox2.Anchor = AnchorStyles.None;
+            textBox2.Location = new Point(320, 188);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(198, 23);
+            textBox2.TabIndex = 1;
             // 
             // textBox1
             // 
-            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox1.Location = new System.Drawing.Point(320, 235);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(198, 23);
-            this.textBox1.TabIndex = 10;
-            this.textBox1.UseSystemPasswordChar = true;
+            textBox1.Anchor = AnchorStyles.None;
+            textBox1.Location = new Point(320, 235);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(198, 23);
+            textBox1.TabIndex = 2;
+            textBox1.UseSystemPasswordChar = true;
             // 
             // button2
             // 
-            this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(524, 235);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(41, 23);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "eye";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            button2.Anchor = AnchorStyles.None;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Location = new Point(524, 235);
+            button2.Name = "button2";
+            button2.Size = new Size(41, 23);
+            button2.TabIndex = 9;
+            button2.Text = "eye";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button1
             // 
-            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(320, 273);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(80, 31);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "LOGIN";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            button1.Anchor = AnchorStyles.None;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Location = new Point(320, 273);
+            button1.Name = "button1";
+            button1.Size = new Size(80, 31);
+            button1.TabIndex = 3;
+            button1.Text = "LOGIN";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // FormLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Name = "FormLogin";
-            this.Text = "FormLogin";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(button3);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Controls.Add(textBox2);
+            Controls.Add(textBox1);
+            Controls.Add(button2);
+            Controls.Add(button1);
+            Name = "FormLogin";
+            Text = "FormLogin";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

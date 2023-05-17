@@ -28,165 +28,165 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label4 = new System.Windows.Forms.Label();
-            this.listVet = new System.Windows.Forms.ListBox();
-            this.listCidade = new System.Windows.Forms.ListBox();
-            this.listEstado = new System.Windows.Forms.ListBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.gridPets = new System.Windows.Forms.DataGridView();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.gridPets)).BeginInit();
-            this.SuspendLayout();
+            label4 = new Label();
+            listVet = new ListBox();
+            listCidade = new ListBox();
+            listEstado = new ListBox();
+            label2 = new Label();
+            label3 = new Label();
+            label1 = new Label();
+            gridPets = new DataGridView();
+            button3 = new Button();
+            button2 = new Button();
+            button1 = new Button();
+            ((System.ComponentModel.ISupportInitialize)gridPets).BeginInit();
+            SuspendLayout();
             // 
             // label4
             // 
-            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(252, 22);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(222, 28);
-            this.label4.TabIndex = 23;
-            this.label4.Text = "Tabela de Veterinários";
+            label4.Anchor = AnchorStyles.None;
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.Location = new Point(252, 22);
+            label4.Name = "label4";
+            label4.Size = new Size(222, 28);
+            label4.TabIndex = 23;
+            label4.Text = "Tabela de Veterinários";
             // 
             // listVet
             // 
-            this.listVet.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.listVet.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.listVet.FormattingEnabled = true;
-            this.listVet.ItemHeight = 21;
-            this.listVet.Location = new System.Drawing.Point(104, 164);
-            this.listVet.Name = "listVet";
-            this.listVet.Size = new System.Drawing.Size(94, 25);
-            this.listVet.TabIndex = 22;
+            listVet.Anchor = AnchorStyles.None;
+            listVet.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            listVet.FormattingEnabled = true;
+            listVet.ItemHeight = 21;
+            listVet.Location = new Point(104, 164);
+            listVet.Name = "listVet";
+            listVet.Size = new Size(94, 25);
+            listVet.TabIndex = 22;
             // 
             // listCidade
             // 
-            this.listCidade.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.listCidade.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.listCidade.FormattingEnabled = true;
-            this.listCidade.ItemHeight = 21;
-            this.listCidade.Location = new System.Drawing.Point(104, 135);
-            this.listCidade.Name = "listCidade";
-            this.listCidade.Size = new System.Drawing.Size(94, 25);
-            this.listCidade.TabIndex = 21;
+            listCidade.Anchor = AnchorStyles.None;
+            listCidade.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            listCidade.FormattingEnabled = true;
+            listCidade.ItemHeight = 21;
+            listCidade.Location = new Point(104, 135);
+            listCidade.Name = "listCidade";
+            listCidade.Size = new Size(94, 25);
+            listCidade.TabIndex = 21;
             // 
             // listEstado
             // 
-            this.listEstado.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.listEstado.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.listEstado.FormattingEnabled = true;
-            this.listEstado.ItemHeight = 21;
-            this.listEstado.Location = new System.Drawing.Point(104, 104);
-            this.listEstado.Name = "listEstado";
-            this.listEstado.Size = new System.Drawing.Size(94, 25);
-            this.listEstado.TabIndex = 20;
+            listEstado.Anchor = AnchorStyles.None;
+            listEstado.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            listEstado.FormattingEnabled = true;
+            listEstado.ItemHeight = 21;
+            listEstado.Location = new Point(104, 104);
+            listEstado.Name = "listEstado";
+            listEstado.Size = new Size(94, 25);
+            listEstado.TabIndex = 20;
             // 
             // label2
             // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(5, 168);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(93, 21);
-            this.label2.TabIndex = 19;
-            this.label2.Text = "Veterinários";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            label2.Anchor = AnchorStyles.None;
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Location = new Point(5, 168);
+            label2.Name = "label2";
+            label2.Size = new Size(93, 21);
+            label2.TabIndex = 19;
+            label2.Text = "Veterinários";
+            label2.Click += label2_Click;
             // 
             // label3
             // 
-            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(40, 135);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(58, 21);
-            this.label3.TabIndex = 18;
-            this.label3.Text = "Cidade";
+            label3.Anchor = AnchorStyles.None;
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.Location = new Point(40, 135);
+            label3.Name = "label3";
+            label3.Size = new Size(58, 21);
+            label3.TabIndex = 18;
+            label3.Text = "Cidade";
             // 
             // label1
             // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(42, 104);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(56, 21);
-            this.label1.TabIndex = 17;
-            this.label1.Text = "Estado";
+            label1.Anchor = AnchorStyles.None;
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Location = new Point(42, 104);
+            label1.Name = "label1";
+            label1.Size = new Size(56, 21);
+            label1.TabIndex = 17;
+            label1.Text = "Estado";
             // 
             // gridPets
             // 
-            this.gridPets.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.gridPets.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gridPets.Location = new System.Drawing.Point(252, 53);
-            this.gridPets.Name = "gridPets";
-            this.gridPets.RowTemplate.Height = 25;
-            this.gridPets.Size = new System.Drawing.Size(536, 320);
-            this.gridPets.TabIndex = 16;
-            this.gridPets.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridPets_CellContentClick);
+            gridPets.Anchor = AnchorStyles.None;
+            gridPets.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            gridPets.Location = new Point(252, 53);
+            gridPets.Name = "gridPets";
+            gridPets.RowTemplate.Height = 25;
+            gridPets.Size = new Size(536, 320);
+            gridPets.TabIndex = 16;
+            gridPets.CellContentClick += gridPets_CellContentClick;
             // 
             // button3
             // 
-            this.button3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(659, 379);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(129, 49);
-            this.button3.TabIndex = 15;
-            this.button3.Text = "Informações";
-            this.button3.UseVisualStyleBackColor = true;
+            button3.Anchor = AnchorStyles.None;
+            button3.FlatStyle = FlatStyle.Flat;
+            button3.Location = new Point(659, 379);
+            button3.Name = "button3";
+            button3.Size = new Size(129, 49);
+            button3.TabIndex = 15;
+            button3.Text = "Informações";
+            button3.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(457, 379);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(129, 49);
-            this.button2.TabIndex = 14;
-            this.button2.Text = "Enviar Pedido";
-            this.button2.UseVisualStyleBackColor = true;
+            button2.Anchor = AnchorStyles.None;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Location = new Point(457, 379);
+            button2.Name = "button2";
+            button2.Size = new Size(129, 49);
+            button2.TabIndex = 14;
+            button2.Text = "Enviar Pedido";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button1
             // 
-            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(252, 379);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(129, 49);
-            this.button1.TabIndex = 13;
-            this.button1.Text = "Contate";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            button1.Anchor = AnchorStyles.None;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Location = new Point(252, 379);
+            button1.Name = "button1";
+            button1.Size = new Size(129, 49);
+            button1.TabIndex = 13;
+            button1.Text = "Contate";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // FormVet
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.listVet);
-            this.Controls.Add(this.listCidade);
-            this.Controls.Add(this.listEstado);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.gridPets);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Name = "FormVet";
-            this.Text = "FormVet";
-            ((System.ComponentModel.ISupportInitialize)(this.gridPets)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(label4);
+            Controls.Add(listVet);
+            Controls.Add(listCidade);
+            Controls.Add(listEstado);
+            Controls.Add(label2);
+            Controls.Add(label3);
+            Controls.Add(label1);
+            Controls.Add(gridPets);
+            Controls.Add(button3);
+            Controls.Add(button2);
+            Controls.Add(button1);
+            Name = "FormVet";
+            Text = "FormVet";
+            ((System.ComponentModel.ISupportInitialize)gridPets).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

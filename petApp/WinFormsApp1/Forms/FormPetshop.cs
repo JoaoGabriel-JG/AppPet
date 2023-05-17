@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WinFormsApp1.Forms.FormsSecundar;
 
 namespace WinFormsApp1.Forms
 {
@@ -40,6 +41,18 @@ namespace WinFormsApp1.Forms
         private void gridPets_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            controlPetshopRequest frm2 = new controlPetshopRequest();
+            frm2.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            controlPetshopContact frm = new controlPetshopContact();
+            frm.Show();
         }
     }
 }

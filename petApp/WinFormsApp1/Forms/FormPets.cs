@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WinFormsApp1.Forms.FormsSecundar;
 
 namespace WinFormsApp1.Forms
 {
@@ -29,7 +30,14 @@ namespace WinFormsApp1.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
+            controlAdote frm = new controlAdote();
+            frm.Show();
+        }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            controlCadPet frm2 = new controlCadPet();
+            frm2.Show();
         }
     }
 }

@@ -36,14 +36,15 @@ namespace WinFormsApp1.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if(!string.IsNullOrEmpty(username) && !string.IsNullOrEmpty(password)) {
+            if (!string.IsNullOrEmpty(username) && !string.IsNullOrEmpty(password))
+            {
                 validarLogin(textBox2.Text, textBox1.Text);
             }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if(textBox1.UseSystemPasswordChar == true)
+            if (textBox1.UseSystemPasswordChar == true)
             {
                 textBox1.UseSystemPasswordChar = false;
             }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WinFormsApp1.Forms.FormsSecundar
 {
-    public partial class controlVetcONTACT : Form
+    public partial class controlVetContact : Form
     {
-        public controlVetcONTACT()
+        public controlVetContact()
         {
             InitializeComponent();
         }
